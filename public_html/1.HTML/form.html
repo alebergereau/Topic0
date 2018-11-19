@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method='post' action='x.php' name='form'>
+
+            <label for="name">First name</label>
+            <input type='text' name='fname' required><br>
+            
+            <label for="name">Last name</label>
+            <input type='text' name='lname' required><br>
+            
+            <label for="email">Email</label>
+            <input type='email' name="email" required><br>
+            
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday"><br>
+
+            <select name='sports'>
+                <option value="football">Football</option>
+                <option value="surf">Surf</option>
+                <option value="cycling">Cycling</option>
+                <option value="swimming">Swimming</option>
+            </select><br>
+            
+            <textarea rows="2" cols="20" name='bio'></textarea><br>
+
+            <input type='reset' value='Reset' name='reset'>
+            <input type='submit' value='Submit' name='submit'>
+
+        </form>
+    </body>
+</html>
